@@ -1,0 +1,402 @@
+body{
+    background-color: RGB(15,15,15);
+}
+.snav{
+    background-color: RGB(3,3,3, .7);
+    padding-left: 80px;
+}
+.snavs{
+    color: RGB(228,134,50);
+}
+.snav li a{
+    color: white;
+    font-family: sans-serif;
+}
+.snav button{
+    color: white;
+}
+.snav ul{
+    padding-right: 80px;
+}
+.snav li a:hover{
+    color: RGB(228,134,50);
+}
+nav h4{
+    font-family: Anurati;
+}
+.sslider{
+    width: 100%;
+}
+.sc1{
+    font-family: Raleway Thin;
+    padding-top: 350px;
+    font-weight: bold;
+    background-color: RGB(0,0,0,.7);
+    width:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:3px;
+}
+.sc1-1{
+    color: white;
+    font-size: 48px;
+}
+.sc1-2{
+    color: RGB(228,134,50);
+    font-size: 48px;
+}
+.sc2{
+    font-family: Raleway;
+    padding-top: 230px;
+	padding-left:50px;
+    background-color: RGB(0,0,0,.7);
+	width:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:3px;
+}
+.carousel-control-prev, .carousel-control-next{
+	z-index:15;
+}
+.sc2 button{
+    background-color: RGB(228,134,50);
+    color: white;
+    font-weight: bold;
+}
+.sc2 button:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+.pb{
+    width: 100%;
+    height: 3px;
+    background-color: RGB(228,134,50);
+}
+.a1{
+    margin-top: 100px;
+}
+.a1 h2{
+    font-family: Anurati;
+    color: white;
+}
+.a1 span{
+    color: RGB(228,134,50);
+}
+.a1hr{
+    background-color: RGB(228,134,50);
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+}
+.a2 p{
+    color: white;
+}
+.g1 h2{
+    font-family: Anurati;
+    color: white;
+}
+.g1 span{
+    color: RGB(228,134,50);
+}
+.g1hr{
+    background-color: RGB(228,134,50);
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+}
+.g2 p{
+    color: white;
+}
+.g3{
+    background-color: RGB(12,12,12);
+    border-left: RGB(228,134,50) solid;
+    width: 100%;
+    height: 45px;
+    padding-top: 7px;
+    margin-left: 16px;
+}
+.g3r{
+    margin-right: 0px;
+}
+.g3 ul{
+    padding-left: 20px;
+}
+.g3 ul li, a{
+    display: inline;
+    color:  white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.g3 ul a:hover{
+    color:  RGB(228,134,50);
+    text-decoration: none;
+}
+.g4c{
+    /* padding-right: 100px; */
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+.g4bg{
+	position:absolute;
+	top:0;
+	left:15;
+	width:100%;
+    height:100%;
+    transition: all .5s;
+}
+.g4c:hover .g4bg{
+    background-color: RGB( 0, 0, 0, .7);
+    border-left: RGB(228,134,50) solid;
+    transition: background-color .5s;
+}
+.g4{
+    background-color: RGB(12,12,12);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.g4 h4{
+    color: white;
+}
+.g4hr{
+    background-color: RGB(228,134,50);
+    width: 60px;
+    height: 3px;
+}
+.g4p1{
+    color: RGB(153,153,153);
+}
+.g4p2{
+    color: white;
+    width: 90%;
+}
+.g4p2 a{
+    color: RGB(228,134,50);
+    font-size: 16px;
+    font-weight: bold;
+}
+.g4b{
+    background-color: RGB(221,221,221);
+    width: 150px;
+    height: 66px;
+    border-radius: 3px;
+	cursor:pointer;
+	transition: all .2s;
+}
+.g4bi{
+    font-size: 32px;
+    color: black;
+	transition: all .2s;
+}
+.g4bp{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+	transition: all .2s;
+}
+.g4b:hover{
+    background-color: black;
+	transition: all .2s;
+}
+.g4b:hover p{
+	color:white;
+	transition: all .2s;
+}
+.g4b:hover i{
+	color:white;
+	transition: all .2s;
+}
+.g4r{
+    padding-right: 60px;
+    padding-top: 15px;
+}
+.g4b2{
+    background-color: RGB(8,8,8);
+    border-radius: 3px;
+	transition:all .2s;
+}
+.g4b2:hover{
+	background-color:white;
+	transition:all .2s;
+}
+.g4b2:hover a{
+	text-decoration:none;
+    transition:all .2s;
+}
+.g4b2:hover p{
+	color:black;
+    transition:all .2s;
+}
+.g4b2p1{
+    font-size: 20.8px;
+    color: white;
+    font-weight: bold;
+    margin-top: -23px;
+	transition:all .2s;
+}
+.g4b2p2{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-top: -15px;
+	transition:all .2s;
+}
+.t1bg p{
+    color: white !important;
+}
+.t1bg{
+	position:absolute;
+	top:0;
+	left:15;
+	width:100%;
+    height:100%;
+    padding-top: 45%;
+    visibility: hidden;
+}
+.t1c:hover .t1bg{
+    background-color: RGB(15,15,15, .7);
+    visibility: visible;
+    transition: all .4s;
+}
+.t1 p{
+    color: RGB(153,153,153);
+    margin-top: -10px;
+}
+.t1hr{
+    background-color: RGB(228,134,50);
+    width: 104px;
+    height: 3px;
+    margin-left: 75px;
+}
+.s1bg{
+	position:absolute;
+	top:0;
+	left:15;
+	width:100%;
+    height:100%;
+    padding-top: 120px;
+    visibility: hidden;
+    transition: all .4s;
+}
+.s1:hover .s1bg{
+    background-color: RGB(15,15,15, .7);
+    visibility: visible;
+    transition: all .4s;
+}
+.hi{
+    background-color: RGB(12,12,12);
+    border-left: RGB(228,134,50) solid;
+    padding-bottom: 40px;
+}
+.hi h5{
+    font-family: Raleway;
+    color: RGB(228,134,50);
+    font-weight: bold;
+}
+.hi p{
+    color: white;
+    text-align: left;
+    width: 200px;
+}
+.hi button{
+    background-color: RGB(228,134,50);
+    color: white;
+    font-family: Raleway;
+    width: 122px;
+    height: 34px;
+}
+.hi button:hover{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    transition: all .2s;
+}
+.nl{
+	display:block;
+}
+.nl input{
+    background-color: RGB(7,7,7);
+    border: none;
+    border-radius: 0px;
+    width: 455px !important;
+}
+.nl button{
+    background-color: RGB(228,134,50);
+    width: 118px;
+    height: 43px;
+    color: white;
+    border-radius: 2px;
+    font-family: apple;
+    font-size: 18px;
+    transition: all .2s;
+}
+.nl button:hover{
+    background-color: white;
+    color: black;
+    transition: all .2s;
+}
+h4{
+    font-family: Raleway;
+    font-weight: bold;
+}
+.f1 form{
+    background-color: RGB(12,12,12);
+}
+.f1 input{
+    background-color: RGB(12,12,12);
+    border: none;
+    border-bottom: RGB(228,134,50) solid;
+    border-radius: 0;
+}
+.f1 textarea{
+    background-color: RGB(12,12,12);
+    border: none;
+    border-bottom: RGB(228,134,50) solid;
+    border-radius: 0;
+    width: 100%;
+    height: 150px;
+}
+.f1 label{
+    color: RGB(153,153,153);
+}
+.f1 button{
+    background-color: RGB(228,134,50);
+    width: 202px;
+    height: 54px;
+    color: white;
+    border-radius: 2px;
+    font-family: apple;
+    font-size: 20px;
+    transition: all .2s;
+}
+.f1d span{
+    color: RGB(228,134,50);
+    font-size: 16px;
+    font-family: Raleway;
+}
+.f1d a:hover{
+    text-decoration: underline;
+    color: RGB(228,134,50);
+}
+.f1d .row{
+    padding-bottom: 16px;
+}
+.f1d iframe{
+    width: 100%;
+    height: 336px;
+}
+.fl{
+    background-color: RGB(7,7,7);
+    border-top: RGB(228,134,50) solid;
+    padding-left: 64px;
+}
+.fl p{
+    color: white;
+}
+.mc{
+    width: 100%;
+}

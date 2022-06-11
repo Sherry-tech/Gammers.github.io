@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+<script>
+  function showmsg()
+  {
+    var a=20;
+    var b=30;
+    alert(document.getElementById('myHeader').innerText);
+    document.getElementById('myHeader').innerText="Welcome";
+  }
+  </script>
+</head>
+<body>
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style elements with the class name "city":</p>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<input type="button" value="Click me" onclick="showmsg()" />
+
+<a href="#testlink">
+  <h1 id='myHeader'>hello</h2>
+</a>
+<br>
+<h2 id='testlink'>My cities</h2>
+
+<iframe src="myframe.html" height="200" width="300" title="Iframe Example"></iframe>
+</br>
+<a href="http://www.bzu.edu.pk",target="myframe">Go Tso Bahudin Zakriya University</a>
+This is the line after myframes
+</body>
+</html>
+
